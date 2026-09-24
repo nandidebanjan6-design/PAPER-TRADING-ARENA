@@ -1,366 +1,160 @@
-# PAPER-TRADING-ARENA
+# Paper Trading Arena
 
-
-### Learn Before You Risk
-
-**Paper Trading Arena** is a beginner-first trading simulation platform that helps users learn **how to think about trading decisions**, rather than simply showing whether they made or lost virtual money.
-
-The platform combines learning, simulated trading, decision-making, reflection, and progressive challenges into one learning loop.
-
-> **Learn → Predict → Trade → Review → Improve**
-
----
+> **A beginner-first trading simulator that turns every simulated trade into a learning opportunity.**
 
 ## 1. Problem
 
-Paper trading allows beginners to practice trading without risking real money.
+Many beginners are interested in trading but struggle to understand how market decisions actually work.
 
-However, simply giving users virtual money does not necessarily help them understand their decisions.
+Traditional paper-trading platforms mainly focus on:
 
-A beginner may:
+* Buying and selling virtual assets
+* Tracking virtual profit and loss
+* Viewing portfolio performance
 
-* Make trades without recording why they made them.
-* Focus only on profit and loss.
-* Forget what they expected before entering a trade.
-* Repeat similar mistakes.
-* Struggle to connect trading concepts with actual decisions.
-
-### The Problem We Are Solving
-
-> **How can beginners use paper trading not only to practice trading, but also to learn from their own decisions?**
-
-## 2. Target Users
-
-### Primary Users
-
-* Students learning about financial markets
-* First-time trading learners
-* Beginners who want to practice without risking real money
-
-### User Persona
-
-**Aarav, 19, College Student**
-
-Aarav has watched videos about stocks but has never traded.
-
-He receives virtual money on a paper-trading platform and makes several trades.
-
-At the end, he sees:
-
-> **Virtual Profit: ₹3,200**
-
-But he still doesn't know:
-
-* Why some decisions worked.
-* Why other decisions failed.
-* Which habits he should change.
-* What he should learn before his next trade.
-
-**Paper Trading Arena is designed around this gap.**
+This can teach users **what happened**, but not necessarily **why their decision happened** or **what they should learn from it**.
 
 ---
 
-## 3. Solution
+## 2. Target Users
 
-Paper Trading Arena adds a structured learning layer around simulated trading.
+Paper Trading Arena is designed primarily for:
 
-Instead of:
+* Students learning about financial markets
+* Complete beginners exploring trading
+* Users who want to practise without risking real money
+* Learners who want to understand their own decision-making patterns
 
-> **Trade → Profit/Loss**
+---
 
-the product follows:
+## 3. Proposed Solution
 
-> **Learn → Predict → Trade → Review → Improve**
+Paper Trading Arena combines **learning, simulated trading, decision-making, and reflection** into one experience.
 
-### The Learning Loop
+The core learning loop is:
 
-```text
-LEARN
-  ↓
-Understand a concept
-  ↓
-PREDICT
-  ↓
-Form a trading decision
-  ↓
-TRADE
-  ↓
-Make a simulated trade
-  ↓
-REVIEW
-  ↓
-Compare expectation with outcome
-  ↓
-IMPROVE
-  ↓
-Apply the learning to the next challenge
-```
+**Learn → Predict → Decide → Trade → Review → Improve**
 
-The goal is not simply to maximize virtual profit.
+Before making a simulated trade, users can record their reasoning and expectations.
 
-The goal is to help beginners **develop better decision-making habits through practice and reflection.**
+After the simulated trade, they can review the result and compare:
+
+* What they expected
+* What actually happened
+* Why the result may have differed
+* What they learned
+* What they could consider differently next time
+
+The goal is not simply to increase virtual profit.
+
+The goal is to make every simulated trade a **learning experience**.
 
 ---
 
 ## 4. What Makes It Different?
 
-A conventional paper-trading experience can be represented as:
+The product is not intended to compete with professional trading platforms.
 
-```text
-Virtual Money
-      ↓
-Buy / Sell
-      ↓
-Portfolio
-      ↓
-Profit / Loss
-```
+Its focus is **beginner education**.
 
-Paper Trading Arena adds a learning and reflection layer:
+Instead of:
 
-```text
-Learn
-  ↓
-Record Decision
-  ↓
-Trade
-  ↓
-Review Result
-  ↓
-Reflect
-  ↓
-Identify Pattern
-  ↓
-Improve
-```
+**Trade → Profit/Loss**
 
-### Key Differentiators
+the platform encourages:
 
-#### 1. Decision Before Trade
+**Learn → Predict → Decide → Trade → Review → Improve**
 
-Before making a simulated trade, users record:
-
-* Why they are entering.
-* What they expect to happen.
-* What could make their prediction wrong.
-* Their planned exit condition.
-
-#### 2. Expectation vs Reality
-
-After the trade, users compare:
-
-```text
-What I expected
-       ↓
-What actually happened
-```
-
-#### 3. Structured Trade Review
-
-The platform goes beyond displaying profit/loss and guides users through reflection.
-
-#### 4. Learning Challenges
-
-Users complete practical challenges designed to reinforce concepts through simulation.
-
-#### 5. Personal Learning Patterns
-
-Over multiple trades, users can review their own decision-making behavior and identify recurring areas for improvement.
+This creates a structured feedback loop around each simulated decision.
 
 ---
 
 ## 5. Core Features
 
-### 5.1 Learning Modules
+### 5.1 Beginner Learning Modules
 
-Short beginner-friendly lessons covering concepts such as:
+Short learning modules explaining concepts such as:
 
-* What is a stock?
-* What is a portfolio?
-* Profit and Loss
-* Market Orders
-* Limit Orders
-* Diversification
-* Risk Management
-* Stop-Loss
-
-The purpose is to connect **learning with practice**.
-
----
+* Market basics
+* Orders
+* Risk and reward
+* Entry and exit decisions
+* Basic technical concepts
+* Common beginner mistakes
 
 ### 5.2 Virtual Wallet
 
-Every user receives a simulated starting balance.
-
-Example:
-
-```text
-Starting Virtual Balance
-₹1,00,000
-```
-
-No real money is involved.
-
----
+Users receive virtual money to practise trading without using real funds.
 
 ### 5.3 Market Simulation
 
-Users can explore available assets and view basic information such as:
-
-* Asset name
-* Price
-* Price movement
-* Basic chart
-* Relevant information
-
-The MVP will use an appropriate permitted data source or controlled simulation.
-
----
+Users can view simulated market information and select assets for practice.
 
 ### 5.4 Decision Journal
 
-Before executing a simulated trade, the user records their reasoning.
+Before placing a simulated trade, users can record:
 
-Example:
-
-```text
-Why am I making this trade?
-
-What do I expect to happen?
-
-What could make my prediction wrong?
-
-What is my exit condition?
-```
-
-This encourages users to **think before they trade**.
-
----
+* Why they are considering the trade
+* Expected movement
+* Entry reasoning
+* Expected exit
+* Risk they are willing to take
 
 ### 5.5 Simulated Trading
 
-Users can buy and sell assets using virtual money.
+Users can perform simulated:
 
-Example:
+* Buy
+* Sell
+* Entry
+* Exit
 
-```text
-Asset: Example Stock
-Price: ₹500
-Quantity: 10
-
-Total Value: ₹5,000
-
-[ BUY ]
-```
-
-The simulated transaction updates the user's virtual portfolio.
-
----
+actions using virtual funds.
 
 ### 5.6 Portfolio
 
 Users can view:
 
-* Virtual cash
-* Assets owned
-* Quantity
-* Average purchase price
-* Current value
+* Current holdings
+* Available virtual balance
+* Trade history
 * Simulated profit/loss
-
----
 
 ### 5.7 Trade Review
 
-After completing a trade, the user can review:
+After a trade is completed, users can review:
 
-* Original reasoning
-* Entry price
-* Exit price
-* Expected outcome
-* Actual outcome
-* Profit/loss
-* Reflection
+* Original prediction
+* Actual result
+* Difference between expectation and outcome
+* What they learned
+* What they would reconsider
 
-Example:
+### 5.8 Progress Tracking
 
-```text
-Your Prediction:
-"I expect the price to increase."
+The system can track learning activity such as:
 
-Actual Outcome:
-The price decreased.
+* Modules completed
+* Trades documented
+* Reviews completed
+* Challenges completed
+* Repeated decision patterns
 
-Reflection:
-What information influenced your decision?
+### 5.9 Learning Challenges
 
-What would you consider differently next time?
-```
+Examples:
 
----
+**Think Before You Trade**
 
-### 5.8 Learning Feedback
+Complete 3 simulated trades while recording the reasoning behind each decision.
 
-The platform can provide educational feedback based on the user's recorded decision and trade history.
+**Define Your Exit**
 
-Example:
+Complete 5 trades with a clearly defined exit condition.
 
-```text
-Your result differed from your expectation.
+**Review Your Decisions**
 
-Suggested review:
-• Entry reasoning
-• Risk management
-• Exit conditions
-
-Suggested learning:
-"Understanding Risk Management"
-```
-
-The feedback is educational and does **not** constitute personalized financial advice.
-
----
-
-### 5.9 Personal Progress
-
-Users can track learning-oriented statistics.
-
-Example:
-
-```text
-Trades Completed: 20
-
-Reason Recorded: 18/20
-
-Exit Condition Recorded: 12/20
-
-Trades Reviewed: 17/20
-
-Most Common Review Topic:
-Risk Management
-```
-
-The focus is on **learning behavior**, not only virtual returns.
-
----
-
-### 5.10 Challenges
-
-Users can complete practical learning challenges.
-
-#### Challenge 01 — Think Before You Trade
-
-Complete 3 simulated trades and record your reasoning before each trade.
-
-#### Challenge 02 — Define Your Exit
-
-Complete 5 simulated trades with an exit condition recorded before execution.
-
-#### Challenge 03 — Review Your Decisions
-
-Review 5 completed trades and identify one recurring pattern.
-
-The challenges turn paper trading into a **progressive learning experience**.
+Review 5 previous trades and identify one recurring pattern.
 
 ---
 
@@ -368,120 +162,67 @@ The challenges turn paper trading into a **progressive learning experience**.
 
 ### Step 1 — Learn
 
-The user learns:
-
-> **What is a stop-loss?**
-
-↓
+The user completes a short lesson about risk and reward.
 
 ### Step 2 — Predict
 
-The user studies a simulated market situation.
-
-↓
+The user studies a simulated market situation and records what they expect to happen.
 
 ### Step 3 — Decide
 
-The user records why they would make the trade.
-
-↓
+The user records why they are considering entering the trade.
 
 ### Step 4 — Trade
 
-The user executes the simulated trade.
-
-↓
+The user places a simulated trade using virtual money.
 
 ### Step 5 — Review
 
-The platform records the outcome.
-
-↓
+After the trade closes, the user compares the prediction with the actual result.
 
 ### Step 6 — Reflect
 
-The user compares their expectation with reality.
-
-↓
+The user records what they learned from the trade.
 
 ### Step 7 — Improve
 
-The platform provides a relevant learning challenge.
-
-↓
-
-### Step 8 — Repeat
-
-The user applies the learning to the next simulation.
+The platform tracks learning patterns and encourages the user to apply the lesson to future simulations.
 
 ---
 
 ## 7. Example Scenario
 
-Suppose a beginner has:
+A beginner believes that an asset may increase in value.
 
-```text
-Virtual Balance: ₹1,00,000
-```
+Before trading, they record:
 
-They simulate buying:
+> "I expect the price to increase because of the current simulated market conditions."
 
-```text
-20 shares × ₹500 = ₹10,000
-```
+They place a simulated buy order.
 
-Before buying, they record:
+Later, the asset decreases instead.
 
-```text
-Reason:
-"I expect the price to increase."
+Instead of simply displaying:
 
-Expected Price:
-₹550
+**Loss: ₹500**
 
-Exit Condition:
-"I will reconsider the trade if the price moves significantly against my expectation."
-```
+the platform encourages the user to review:
 
-Later, the simulated price falls to ₹450.
+* What did I expect?
+* What actually happened?
+* Why might my expectation have been wrong?
+* What did I learn?
+* What would I consider before making a similar decision?
 
-A basic simulator might simply show:
-
-```text
-Loss: ₹1,000
-```
-
-Paper Trading Arena instead encourages the user to review:
-
-```text
-Your Expectation:
-₹550
-
-Actual Price:
-₹450
-
-Difference:
-₹100/share
-
-Review:
-What influenced your decision?
-
-What did you expect to happen?
-
-What actually happened?
-
-What can you learn from this trade?
-```
-
-The **trade result becomes a learning event**, not just a number.
+This turns the result into a learning opportunity.
 
 ---
 
 ## 8. MVP Scope
 
-The first version will intentionally remain small.
+The first version will focus only on validating the core learning loop.
 
-### Included in MVP
+### Included
 
 * User account
 * Beginner learning modules
@@ -498,162 +239,127 @@ The first version will intentionally remain small.
 ### Not Included in MVP
 
 * Real-money trading
-* Deposits
-* Withdrawals
+* Deposits or withdrawals
 * Brokerage integration
-* Personalized investment advisory
-* Guaranteed returns
-* Complex professional trading tools
+* Professional trading terminals
 * High-frequency trading
+* Complex financial analytics
+* Personalized investment recommendations
 
-### MVP Validation Question
+Keeping the MVP focused allows the core idea to be tested before adding advanced functionality.
+
+---
+
+## 9. Validation Plan
+
+### Core Question
 
 > **Does structured reflection make paper trading more useful for beginners?**
 
-The MVP exists primarily to test this question.
+### Validation Approach
+
+We will test the difference between two experiences:
+
+**Experience A**
+
+Trade → Profit/Loss
+
+**Experience B**
+
+Learn → Decision → Trade → Review → Improve
+
+Beginner users can try the product and provide feedback on:
+
+* Whether the learning modules were understandable
+* Whether recording their reasoning was useful
+* Whether trade reviews helped them understand their decisions
+* Whether challenges encouraged continued learning
+* What features they found confusing or unnecessary
+
+The results will be used to refine the product before expanding its scope.
 
 ---
 
-## 9. Success Metrics
+## 10. Success Metrics
 
-Success will not be measured only by virtual profit.
+The initial success of the MVP will be measured through learning behaviour rather than virtual profit.
 
-### Learning Completion
+Key metrics:
 
-How many users complete the learning modules?
-
-### Decision Documentation
-
-How often do users record their reasoning before a trade?
-
-### Review Completion
-
-How often do users review completed trades?
-
-### Challenge Completion
-
-How many users complete learning challenges?
-
-### User Understanding
-
-Can users explain:
-
-* Why they made a simulated trade?
-* What happened afterward?
-* What they learned from the result?
-
-These metrics directly measure the product's learning objective.
-
----
-
-## 10. Validation Plan
-
-Before building the complete application, the concept will be tested with beginner users.
-
-### Test Process
-
-Users will be given a simple simulated trading task.
-
-Two experiences can be compared:
-
-```text
-Experience A
-
-Trade
-  ↓
-Profit/Loss
-```
-
-and:
-
-```text
-Experience B
-
-Learn
-  ↓
-Decision
-  ↓
-Trade
-  ↓
-Review
-  ↓
-Improve
-```
-
-### Questions
-
-Users will be asked:
-
-* Was the trading process easy to understand?
-* Did recording your reasoning help?
-* Was the trade review useful?
-* Did you understand what to improve?
-* Which step felt unnecessary?
-* What would you want to learn next?
-
-The feedback will be used to refine the MVP.
+* Learning module completion rate
+* Percentage of trades with documented reasoning
+* Trade review completion rate
+* Challenge completion rate
+* User-reported usefulness of trade reviews
+* Ability of users to explain what they learned from previous trades
 
 ---
 
 ## 11. System Architecture
 
+The proposed system will follow a simple modular architecture.
+
+```text
                     USER
-                      │
-                      ▼
-                FRONTEND UI
-                      │
-                      ▼
-                 BACKEND API
-              ┌───────┼────────┐
-              ▼       ▼        ▼
-          Learning  Trading   Reviews
-              │       │        │
-              └───────┼────────┘
-                      ▼
-                   DATABASE
-                      │
-                      ▼
+                      |
+                      v
+             FRONTEND (React)
+                      |
+                      v
+          BACKEND API (Node.js +
+                Express.js)
+                      |
+        +-------------+-------------+
+        |             |             |
+        v             v             v
+    LEARNING       TRADING       REVIEW
+     MODULE        ENGINE        SYSTEM
+        |             |             |
+        +-------------+-------------+
+                      |
+                      v
+              DATABASE (MongoDB)
+                      |
+                      v
                  MARKET DATA
 ```
 
-### Frontend
+### Main Components
 
-Responsible for:
+**Frontend**
 
+* User interface
 * Learning modules
-* Market dashboard
+* Market screen
 * Trading interface
 * Portfolio
+* Decision journal
 * Trade review
 * Progress dashboard
 
-### Backend
+**Backend**
 
-Responsible for:
+* User management
+* Learning module management
+* Simulated trading logic
+* Portfolio management
+* Trade history
+* Review management
+* Progress tracking
 
-* Authentication
-* Virtual balance
-* Trade processing
-* Portfolio calculations
+**Database**
+
+* User data
 * Learning progress
-* Review data
-* Challenge progress
-
-### Database
-
-Stores:
-
-* Users
-* Holdings
-* Transactions
-* Trade reasoning
+* Virtual wallet
+* Portfolio
+* Trade history
+* Journal entries
 * Reviews
-* Learning progress
-* Challenge progress
 
-### Market Data
+**Market Data**
 
-Provides the information required for the simulation using an appropriate permitted source.
+* Provides simulated or available market information for the trading environment.
 
 ---
 
@@ -675,12 +381,14 @@ Provides the information required for the simulation using an appropriate permit
 
 * MongoDB
 
-### Version Control
+### Development & Collaboration
 
 * Git
 * GitHub
 
-The final technology stack may change after technical validation.
+### Market Data
+
+A suitable market-data source can be integrated during implementation, depending on availability and project requirements.
 
 ---
 
@@ -688,113 +396,106 @@ The final technology stack may change after technical validation.
 
 ### Beginner First
 
-The interface should be understandable to someone with little or no trading experience.
+The interface should be understandable even to someone with no previous trading experience.
 
-### Think Before You Trade
+### Learning Over Profit
 
-Important decisions should encourage deliberate reasoning.
+Virtual profit should not become the primary measure of success.
 
-### Learning Over Winning
+### Reflection Before Complexity
 
-Virtual profit should not be the only measure of progress.
+The product should encourage users to understand their decisions before introducing advanced tools.
 
-### Reflection
+### Safe Simulation
 
-Users should understand what happened and why.
+All trading activity remains simulated during the MVP.
 
-### Simple MVP
+### Focused MVP
 
-Only essential features should be built initially.
-
-### Transparent
-
-Users should always know that the environment is simulated.
-
-### Safe
-
-Educational feedback should not be presented as guaranteed financial advice.
+Only features necessary to validate the core learning loop will be built initially.
 
 ---
 
 ## 14. Risks and Challenges
 
-### Market Data
+### Risk 1 — Users Focus Only on Virtual Profit
 
-Data availability, API limits, and licensing requirements may affect implementation.
+**Mitigation:**
+Emphasize learning progress, decision journals, reviews, and challenges rather than only portfolio returns.
 
-### Misinterpretation
+### Risk 2 — Market Data Complexity
 
-Users may incorrectly assume that simulated performance predicts real-world results.
+**Mitigation:**
+Start with a controlled or limited simulation before introducing more complex market-data integration.
 
-### AI Feedback
+### Risk 3 — Beginners May Feel Overwhelmed
 
-If AI is introduced, it must remain educational and avoid presenting uncertain financial outcomes as guarantees.
+**Mitigation:**
+Use short learning modules and progressively introduce concepts.
 
-### Overengineering
+### Risk 4 — Users May Treat Simulated Results as Financial Advice
 
-Adding too many features could distract from the core learning loop.
+**Mitigation:**
+Clearly communicate that the platform is an educational simulation and not financial advice.
 
 ---
 
 ## 15. Future Roadmap
 
-After validating the MVP, possible future features include:
+After validating the MVP, potential future additions include:
 
-* AI-assisted trade explanations
+* More advanced learning modules
+* More realistic market simulations
+* Interactive charts
+* Advanced decision analytics
 * Personalized learning paths
-* Advanced learning challenges
-* Watchlists
-* Price alerts
-* Strategy backtesting
-* Friend competitions
-* College competitions
-* Achievement badges
-* Advanced behavioral analytics
+* Additional challenge types
+* Community learning features
+* AI-assisted educational explanations
 
-These features are intentionally outside the initial MVP.
+These features will only be considered after validating the core product concept.
 
 ---
 
 ## 16. Non-Goals
 
-Paper Trading Arena will **not**:
+Paper Trading Arena is **not** intended to:
 
-* Handle real money
-* Execute real trades
-* Provide personalized investment recommendations
-* Guarantee returns
+* Execute real-money trades
+* Manage users' real investments
+* Provide guaranteed returns
 * Replace professional financial advice
+* Encourage users to take unnecessary financial risks
+* Become a professional high-frequency trading platform
 
-It is an **educational simulation platform**.
+The project is primarily an **educational simulation**.
 
 ---
 
 ## 17. Current Project Stage
 
-**J2M Ronin — Product Planning**
+The project is currently in the **product-planning stage**.
 
-Current deliverables:
+Current focus:
 
 * Problem definition
-* Target users
-* User persona
-* Product concept
-* Feature prioritization
-* MVP definition
+* Target-user identification
+* Product scope
 * User journey
-* User flow
-* Wireframe
+* Core feature planning
+* Validation strategy
 * System architecture
-* Validation plan
-* README
+* Wireframe planning
 
-The current stage focuses on understanding **what should be built and why** before application development begins.
+Application development will begin after the product requirements and design have been sufficiently defined.
 
 ---
 
-## 18. Project Vision
+## 18. Product Vision
 
 > **Make trading education practical by turning every simulated trade into an opportunity to learn.**
+
+Paper Trading Arena aims to create a learning environment where beginners can practise decision-making, understand outcomes, and gradually improve their understanding of markets.
 
 ---
 
@@ -806,11 +507,11 @@ The current stage focuses on understanding **what should be built and why** befo
 
 ## 20. Disclaimer
 
-Paper Trading Arena is an educational simulation concept.
+Paper Trading Arena is an educational simulation project.
 
-It does not involve real money, real trading, or personalized financial advice.
+It does not involve real-money trading and does not provide financial or investment advice.
 
-Simulated results do not guarantee similar results in real-world markets.
+Any market data, simulated results, or educational content used by the platform should not be interpreted as a recommendation to buy or sell any financial asset.
 
 ---
 
@@ -825,7 +526,12 @@ Instead of treating paper trading as the destination, the platform uses it as a 
 **Learn → Predict → Trade → Review → Improve**
 
 The MVP will first validate this learning loop with beginners before expanding into advanced features.
-**TEAM**
-DEVELOPERS:-
-~DEBANJAN NANDI
-~SOHAM PAUL.
+
+---
+
+## 22. Team
+
+### Developers
+
+* **Debanjan Nandi**
+* **Sohom Paul**
