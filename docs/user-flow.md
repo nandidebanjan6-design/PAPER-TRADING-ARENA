@@ -645,5 +645,5 @@ This user flow does not include:
 * Professional trading terminals
 * High-frequency trading
 
-These are outside the scope of the initial educational simulation.
+These are outside the scope of the initial educational simulation..
 
