@@ -541,4 +541,4 @@ The MVP will first validate this learning loop with beginners before expanding i
 - [Validation Plan](./docs/validation.md)
 - [System Architecture](./docs/architecture.md)
 - [Requirements & Roadmap](./docs/requirements.md)
-- [UI/UX Design — 12 Page Sketch](./docs/UI%20SKETCH.pdf)
+- [UI/UX Design — 12 Page Sketch](./docs/UI%20design.pdf)
