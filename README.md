@@ -535,3 +535,13 @@ The MVP will first validate this learning loop with beginners before expanding i
 
 * **Debanjan Nandi**
 * **Sohom Paul**
+**Project Documentation**
+
+- [User Flow](docs/user-flow.md)
+- [Validation Plan](docs/validation.md)
+- [System Architecture](docs/architecture.md)
+- [Requirements & Roadmap](docs/roadmap.md)
+
+**UI Sketch**
+
+- [View UI Sketch](PASTE-YOUR-UI-LINK-HERE)
