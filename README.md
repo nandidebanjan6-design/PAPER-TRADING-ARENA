@@ -537,17 +537,8 @@ The MVP will first validate this learning loop with beginners before expanding i
 * **Soham Paul**
   
 
-- [User Flow](docs/user-flow.md)
-- [Validation Plan](docs/validation.md)
-- [System Architecture](docs/architecture.md)
-- [Requirements & Roadmap](docs/roadmap.md)
-
-*UI/UX Design* 
-
-The Paper Trading Arena UI is designed around the learning loop:
-
-**Learn → Predict → Explain → Trade → Review → Reflect → Improve**
-
-The complete 12-page UI/UX design is available here:
-
-[View Complete UI Sketch (12 Pages)](./docs/UI SKETCH.pdf)
+- [User Flow](./docs/user-flow.md)
+- [Validation Plan](./docs/validation.md)
+- [System Architecture](./docs/architecture.md)
+- [Requirements & Roadmap](./docs/requirements.md)
+- [UI/UX Design — 12 Page Sketch](./docs/UI%20SKETCH.pdf)
